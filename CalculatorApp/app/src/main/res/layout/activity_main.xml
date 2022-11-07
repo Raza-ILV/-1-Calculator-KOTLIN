@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/SwapPage"
+        android:id="@+id/SwapPageBTN"
         android:layout_width="230dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/teal_200"
@@ -21,39 +21,39 @@
         app:layout_constraintVertical_bias="0.426" />
 
     <Button
-        android:id="@+id/Minus"
+        android:id="@+id/SubtractBTN"
         android:layout_width="70dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/purple_200"
-        android:onClick="Minus"
+        android:onClick="SUBTRACT"
         android:text="-"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.343"
+        app:layout_constraintHorizontal_bias="0.348"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.515" />
 
     <Button
-        android:id="@+id/Plus"
+        android:id="@+id/AddBTN"
         android:layout_width="70dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/purple_200"
-        android:onClick="Plus"
+        android:onClick="ADD"
         android:text="+"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/Minus"
-        app:layout_constraintHorizontal_bias="0.63"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.515" />
 
     <Button
-        android:id="@+id/Divide"
+        android:id="@+id/DivideBTN"
         android:layout_width="70dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/purple_200"
-        android:onClick="Divide"
+        android:onClick="DIVIDE"
         android:text="/"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,16 +63,16 @@
         app:layout_constraintVertical_bias="0.515" />
 
     <Button
-        android:id="@+id/Multiply"
+        android:id="@+id/MultiplyBTN"
         android:layout_width="70dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/purple_200"
-        android:onClick="Multiply"
+        android:onClick="MULTIPLY"
         android:text="*"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.396"
-        app:layout_constraintStart_toEndOf="@+id/Divide"
+        app:layout_constraintHorizontal_bias="0.897"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.515" />
 
@@ -94,7 +94,7 @@
         app:layout_constraintVertical_bias="0.241" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/ClearBTN"
         android:layout_width="100dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/teal_700"

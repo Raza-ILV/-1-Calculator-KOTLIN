@@ -9,19 +9,13 @@ import android.widget.TextView
 
 class SecondActivity : AppCompatActivity() {
     fun Clear() {
-        val textView = findViewById<TextView>(R.id.textView2).apply {
-            text = "0"
-        }
+        val T = findViewById<TextView>(R.id.textView).apply {text = "0"}
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
         Clear()
-
-        val countString = intent.getStringExtra("EXTRA_MESSAGE")
-
-        val textView = findViewById<TextView>(R.id.textView2).apply {
-            text = countString
-        }
+        val countString = intent.getStringExtra("M_TO_PUSH")
+        val T = findViewById<TextView>(R.id.textView).apply {text = countString}
     }
 }
